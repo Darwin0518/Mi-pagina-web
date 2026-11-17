@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<center>
+
+<h1 style="color:white">Formulario</h1>
+
+</center>
+
+
+
+    <center>
+<body style="background-color: rgb(0, 119, 126);">
+<br>
+<table border="15" width="90%" bgcolor="white">
+<tr align="center">
+<td><a href="index.html"><b>Inicio</b></a></td>
+<td><a href="autobiografia.html"><b>Autobiografia</b></a></td>
+<td><a href="galeria.html"><b>Galeria</b></a></td>
+<td><a href="pasatiempos.html"><b>Pasatiempos</b></a></td>
+<td><a href="formularios.html"><b>Formulario</b></a></td>
+</tr>
+</table>
+<br>
+</center>
+
+<center>
+    <h2 style="color:white">Formulario</h2>
+
+    <form action="procesar.php" method="post">
+        <label style="color:white" for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="Fecha de Nacimiento" name="Fecha de Nacimiento" required><br><br>
+        <label style="color:white" for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label style="color:white" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label style="color:white" for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+        <label style="color:white" for="password">Password:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+        <label style="color:white" for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <label style="color:white" for="Ciudad">Ciudad:</label>
+
+        <select id="ciudad" name="ciudad" required>
+            <option value="Santo Domingo">Santo Domingo </option>
+            <option value="Santiago de Los Caballeros">Santiago de Los Caballeros </option>
+            <option value="La Romana">La Romana </option>
+            <option value="Puerto Plata">Puerto Plata </option>
+            <option value="Punta Cana">Punta Cana </option>
+        </select>
+        
+      </select><br><br>
+
+
+    </form>
+    
+    
+
+    <p style="color:white"> Elige tu género: </p>
+
+    <input type="radio" id="masculino">
+    <label style="color: white;" for="masculino">Masculino</label><br><br> 
+    <input type="radio" id="femenino"> 
+    <label style="color:white;" for="femenino">Femenino</label>
+
+  <br> <input type="submit" value="Enviar" 
+
+</center>
+
+
+</body>
+</html>
